@@ -94,10 +94,10 @@ git rebase -i HEAD~5
 **The Editor Opens:**
 Change the command word at the start of the line:
 
-1.  `pick` (Keep this commit)
-2.  `squash` (Merge this into the one above it)
-3.  `fixup` (Merge into above, but discard the log message)
-4.  `drop` (Delete this commit entirely)
+1. `pick` (Keep this commit)
+2. `squash` (Merge this into the one above it)
+3. `fixup` (Merge into above, but discard the log message)
+4. `drop` (Delete this commit entirely)
 
 **Example:**
 
@@ -153,10 +153,10 @@ git rebase origin/main
 
 **If Conflicts Occur:**
 
-1.  Git pauses. Open the conflicting files.
-2.  Resolve the code.
-3.  `git add resolved-file.js`
-4.  `git rebase --continue` (Do NOT run `git commit`)
+1. Git pauses. Open the conflicting files.
+2. Resolve the code.
+3. `git add resolved-file.js`
+4. `git rebase --continue` (Do NOT run `git commit`)
 
 ---
 
