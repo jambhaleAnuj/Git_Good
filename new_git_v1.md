@@ -356,3 +356,5 @@ By following these advanced Git workflows and standards, you ensure a clean, mai
 | Stage changes interactively | `git add -p`                                                                |
 | Amend last commit           | `git add <file> && git commit --amend --no-edit`                            |
 | Interactive rebase last N   | `git rebase -i HEAD~N`                                                      |
+
+This is change 3
