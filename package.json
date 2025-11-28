@@ -1,0 +1,24 @@
+{
+  "name": "git_docs",
+  "version": "1.0.0",
+  "description": "**Purpose:** This document defines the standard operating procedures for development. It moves beyond \"saving files\" to managing a clean, linear, and professional project history.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "check-commit": "node scripts/check-commit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jambhaleAnuj/Git_Good.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jambhaleAnuj/Git_Good/issues"
+  },
+  "homepage": "https://github.com/jambhaleAnuj/Git_Good#readme",
+  "dependencies": {
+    "husky": "^9.1.7"
+  }
+}
