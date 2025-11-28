@@ -358,3 +358,4 @@ By following these advanced Git workflows and standards, you ensure a clean, mai
 | Interactive rebase last N   | `git rebase -i HEAD~N`                                                      |
 
 This is change 1
+This is change 2
